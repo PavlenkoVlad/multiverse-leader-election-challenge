@@ -3,23 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		48755A9C261DE82A005AE3B5 /* multiverse_leader_election_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755A9B261DE82A005AE3B5 /* multiverse_leader_election_challengeApp.swift */; };
-		48755A9E261DE82A005AE3B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755A9D261DE82A005AE3B5 /* ContentView.swift */; };
+		48755A9E261DE82A005AE3B5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755A9D261DE82A005AE3B5 /* RootView.swift */; };
 		48755AA0261DE82B005AE3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48755A9F261DE82B005AE3B5 /* Assets.xcassets */; };
 		48755AA3261DE82B005AE3B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48755AA2261DE82B005AE3B5 /* Preview Assets.xcassets */; };
+		48755AAC261DE9F2005AE3B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48755AAB261DE9F2005AE3B5 /* GoogleService-Info.plist */; };
+		48755ABD261DF124005AE3B5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755ABC261DF124005AE3B5 /* AuthViewModel.swift */; };
+		48755AC0261DF129005AE3B5 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755ABF261DF129005AE3B5 /* AuthView.swift */; };
+		48755AD7261DF2CF005AE3B5 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755AD6261DF2CF005AE3B5 /* RootViewModel.swift */; };
+		48755AE4261DFEAD005AE3B5 /* GroupsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755AE3261DFEAD005AE3B5 /* GroupsViewModel.swift */; };
+		48755AE8261DFEB3005AE3B5 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755AE7261DFEB3005AE3B5 /* GroupsView.swift */; };
+		48755AEC261F02EA005AE3B5 /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755AEB261F02EA005AE3B5 /* FilledButton.swift */; };
+		48755AF2261F054A005AE3B5 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755AF1261F054A005AE3B5 /* UserDefaultsService.swift */; };
+		48755B0E261F21E8005AE3B5 /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B0D261F21E8005AE3B5 /* UserGroup.swift */; };
+		48755B18261F561E005AE3B5 /* GroupAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B17261F561E005AE3B5 /* GroupAddView.swift */; };
+		48755B1D261F5DE6005AE3B5 /* GroupCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B1C261F5DE6005AE3B5 /* GroupCreateView.swift */; };
+		48755B21261F63DD005AE3B5 /* GroupCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B20261F63DD005AE3B5 /* GroupCreateViewModel.swift */; };
+		48755B53261F661E005AE3B5 /* GroupAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B52261F661E005AE3B5 /* GroupAddViewModel.swift */; };
+		48755B58261F69B6005AE3B5 /* TrackSelectableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B57261F69B6005AE3B5 /* TrackSelectableRow.swift */; };
+		48755B61261F72D5005AE3B5 /* TracklistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B60261F72D5005AE3B5 /* TracklistViewModel.swift */; };
+		48755B64261F72DF005AE3B5 /* TracklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B63261F72DF005AE3B5 /* TracklistView.swift */; };
+		48755B6C2620395C005AE3B5 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B6B2620395C005AE3B5 /* PlayButton.swift */; };
+		48755B6F262039D9005AE3B5 /* ControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B6E262039D9005AE3B5 /* ControlButton.swift */; };
+		48755B7426204253005AE3B5 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B7326204253005AE3B5 /* CoreDataService.swift */; };
+		48755B792620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48755B772620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodeld */; };
+		48755B8226205151005AE3B5 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48755B8126205151005AE3B5 /* DownloadService.swift */; };
+		6C9D9148B6F3E5445C6B8CCC /* Pods_multiverse_leader_election_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969D4CEC8E14979204103A75 /* Pods_multiverse_leader_election_challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48755A98261DE82A005AE3B5 /* multiverse-leader-election-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multiverse-leader-election-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48755A9B261DE82A005AE3B5 /* multiverse_leader_election_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiverse_leader_election_challengeApp.swift; sourceTree = "<group>"; };
-		48755A9D261DE82A005AE3B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48755A9D261DE82A005AE3B5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		48755A9F261DE82B005AE3B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48755AA2261DE82B005AE3B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48755AA4261DE82B005AE3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48755AAB261DE9F2005AE3B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48755ABC261DF124005AE3B5 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		48755ABF261DF129005AE3B5 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		48755AD6261DF2CF005AE3B5 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		48755AE3261DFEAD005AE3B5 /* GroupsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewModel.swift; sourceTree = "<group>"; };
+		48755AE7261DFEB3005AE3B5 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		48755AEB261F02EA005AE3B5 /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
+		48755AF1261F054A005AE3B5 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		48755B0D261F21E8005AE3B5 /* UserGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroup.swift; sourceTree = "<group>"; };
+		48755B17261F561E005AE3B5 /* GroupAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAddView.swift; sourceTree = "<group>"; };
+		48755B1C261F5DE6005AE3B5 /* GroupCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCreateView.swift; sourceTree = "<group>"; };
+		48755B20261F63DD005AE3B5 /* GroupCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCreateViewModel.swift; sourceTree = "<group>"; };
+		48755B52261F661E005AE3B5 /* GroupAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAddViewModel.swift; sourceTree = "<group>"; };
+		48755B57261F69B6005AE3B5 /* TrackSelectableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackSelectableRow.swift; sourceTree = "<group>"; };
+		48755B60261F72D5005AE3B5 /* TracklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracklistViewModel.swift; sourceTree = "<group>"; };
+		48755B63261F72DF005AE3B5 /* TracklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracklistView.swift; sourceTree = "<group>"; };
+		48755B6B2620395C005AE3B5 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		48755B6E262039D9005AE3B5 /* ControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButton.swift; sourceTree = "<group>"; };
+		48755B7326204253005AE3B5 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		48755B782620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "multiverse-leader-election-challenge.xcdatamodel"; sourceTree = "<group>"; };
+		48755B8126205151005AE3B5 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		969D4CEC8E14979204103A75 /* Pods_multiverse_leader_election_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multiverse_leader_election_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D103A00B8233175AE5553B27 /* Pods-multiverse-leader-election-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiverse-leader-election-challenge.release.xcconfig"; path = "Target Support Files/Pods-multiverse-leader-election-challenge/Pods-multiverse-leader-election-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		FD0DC07E42BFC2B30CCE512B /* Pods-multiverse-leader-election-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiverse-leader-election-challenge.debug.xcconfig"; path = "Target Support Files/Pods-multiverse-leader-election-challenge/Pods-multiverse-leader-election-challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +73,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9D9148B6F3E5445C6B8CCC /* Pods_multiverse_leader_election_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FC1F88A10958D1584B7E7D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				969D4CEC8E14979204103A75 /* Pods_multiverse_leader_election_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48755A8F261DE82A005AE3B5 = {
 			isa = PBXGroup;
 			children = (
 				48755A9A261DE82A005AE3B5 /* multiverse-leader-election-challenge */,
 				48755A99261DE82A005AE3B5 /* Products */,
+				EA1A84DCDFA488FDD03A3F3D /* Pods */,
+				0FC1F88A10958D1584B7E7D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				48755A9B261DE82A005AE3B5 /* multiverse_leader_election_challengeApp.swift */,
-				48755A9D261DE82A005AE3B5 /* ContentView.swift */,
+				48755B0C261F21DC005AE3B5 /* Models */,
+				48755AEF261F0511005AE3B5 /* Services */,
+				48755AEA261F02BD005AE3B5 /* CommonViews */,
+				48755ABA261DEF11005AE3B5 /* Modules */,
 				48755A9F261DE82B005AE3B5 /* Assets.xcassets */,
+				48755B772620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodeld */,
 				48755AA4261DE82B005AE3B5 /* Info.plist */,
+				48755AAB261DE9F2005AE3B5 /* GoogleService-Info.plist */,
 				48755AA1261DE82B005AE3B5 /* Preview Content */,
 			);
 			path = "multiverse-leader-election-challenge";
@@ -69,6 +131,127 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		48755ABA261DEF11005AE3B5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				48755AD5261DF2C2005AE3B5 /* Root */,
+				48755ABB261DF117005AE3B5 /* Auth */,
+				48755AE2261DFE9E005AE3B5 /* Groups */,
+				48755B16261F55DC005AE3B5 /* GroupAdd */,
+				48755B1B261F5DC5005AE3B5 /* GroupCreate */,
+				48755B5C261F726E005AE3B5 /* Tracklist */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		48755ABB261DF117005AE3B5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				48755ABC261DF124005AE3B5 /* AuthViewModel.swift */,
+				48755ABF261DF129005AE3B5 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		48755AD5261DF2C2005AE3B5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				48755AD6261DF2CF005AE3B5 /* RootViewModel.swift */,
+				48755A9D261DE82A005AE3B5 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		48755AE2261DFE9E005AE3B5 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				48755AE3261DFEAD005AE3B5 /* GroupsViewModel.swift */,
+				48755AE7261DFEB3005AE3B5 /* GroupsView.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		48755AEA261F02BD005AE3B5 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				48755AEB261F02EA005AE3B5 /* FilledButton.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		48755AEF261F0511005AE3B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48755AF1261F054A005AE3B5 /* UserDefaultsService.swift */,
+				48755B7326204253005AE3B5 /* CoreDataService.swift */,
+				48755B8126205151005AE3B5 /* DownloadService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		48755B0C261F21DC005AE3B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48755B0D261F21E8005AE3B5 /* UserGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48755B16261F55DC005AE3B5 /* GroupAdd */ = {
+			isa = PBXGroup;
+			children = (
+				48755B52261F661E005AE3B5 /* GroupAddViewModel.swift */,
+				48755B17261F561E005AE3B5 /* GroupAddView.swift */,
+			);
+			path = GroupAdd;
+			sourceTree = "<group>";
+		};
+		48755B1B261F5DC5005AE3B5 /* GroupCreate */ = {
+			isa = PBXGroup;
+			children = (
+				48755B56261F6976005AE3B5 /* Subviews */,
+				48755B20261F63DD005AE3B5 /* GroupCreateViewModel.swift */,
+				48755B1C261F5DE6005AE3B5 /* GroupCreateView.swift */,
+			);
+			path = GroupCreate;
+			sourceTree = "<group>";
+		};
+		48755B56261F6976005AE3B5 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				48755B57261F69B6005AE3B5 /* TrackSelectableRow.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		48755B5C261F726E005AE3B5 /* Tracklist */ = {
+			isa = PBXGroup;
+			children = (
+				48755B66261F7586005AE3B5 /* Subviews */,
+				48755B60261F72D5005AE3B5 /* TracklistViewModel.swift */,
+				48755B63261F72DF005AE3B5 /* TracklistView.swift */,
+			);
+			path = Tracklist;
+			sourceTree = "<group>";
+		};
+		48755B66261F7586005AE3B5 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				48755B6B2620395C005AE3B5 /* PlayButton.swift */,
+				48755B6E262039D9005AE3B5 /* ControlButton.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		EA1A84DCDFA488FDD03A3F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0DC07E42BFC2B30CCE512B /* Pods-multiverse-leader-election-challenge.debug.xcconfig */,
+				D103A00B8233175AE5553B27 /* Pods-multiverse-leader-election-challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48755AA7261DE82B005AE3B5 /* Build configuration list for PBXNativeTarget "multiverse-leader-election-challenge" */;
 			buildPhases = (
+				CD75E73F1BF727564BC42E36 /* [CP] Check Pods Manifest.lock */,
 				48755A94261DE82A005AE3B5 /* Sources */,
 				48755A95261DE82A005AE3B5 /* Frameworks */,
 				48755A96261DE82A005AE3B5 /* Resources */,
+				A7EA2A7CC9CC1BBB6F635380 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +313,81 @@
 			files = (
 				48755AA3261DE82B005AE3B5 /* Preview Assets.xcassets in Resources */,
 				48755AA0261DE82B005AE3B5 /* Assets.xcassets in Resources */,
+				48755AAC261DE9F2005AE3B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7EA2A7CC9CC1BBB6F635380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multiverse-leader-election-challenge/Pods-multiverse-leader-election-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multiverse-leader-election-challenge/Pods-multiverse-leader-election-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multiverse-leader-election-challenge/Pods-multiverse-leader-election-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD75E73F1BF727564BC42E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-multiverse-leader-election-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48755A94261DE82A005AE3B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48755A9E261DE82A005AE3B5 /* ContentView.swift in Sources */,
+				48755B61261F72D5005AE3B5 /* TracklistViewModel.swift in Sources */,
+				48755A9E261DE82A005AE3B5 /* RootView.swift in Sources */,
 				48755A9C261DE82A005AE3B5 /* multiverse_leader_election_challengeApp.swift in Sources */,
+				48755AEC261F02EA005AE3B5 /* FilledButton.swift in Sources */,
+				48755B0E261F21E8005AE3B5 /* UserGroup.swift in Sources */,
+				48755B21261F63DD005AE3B5 /* GroupCreateViewModel.swift in Sources */,
+				48755B1D261F5DE6005AE3B5 /* GroupCreateView.swift in Sources */,
+				48755B6F262039D9005AE3B5 /* ControlButton.swift in Sources */,
+				48755AE4261DFEAD005AE3B5 /* GroupsViewModel.swift in Sources */,
+				48755B6C2620395C005AE3B5 /* PlayButton.swift in Sources */,
+				48755AC0261DF129005AE3B5 /* AuthView.swift in Sources */,
+				48755AF2261F054A005AE3B5 /* UserDefaultsService.swift in Sources */,
+				48755B792620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodeld in Sources */,
+				48755B7426204253005AE3B5 /* CoreDataService.swift in Sources */,
+				48755AE8261DFEB3005AE3B5 /* GroupsView.swift in Sources */,
+				48755B18261F561E005AE3B5 /* GroupAddView.swift in Sources */,
+				48755B58261F69B6005AE3B5 /* TrackSelectableRow.swift in Sources */,
+				48755AD7261DF2CF005AE3B5 /* RootViewModel.swift in Sources */,
+				48755B53261F661E005AE3B5 /* GroupAddViewModel.swift in Sources */,
+				48755B64261F72DF005AE3B5 /* TracklistView.swift in Sources */,
+				48755ABD261DF124005AE3B5 /* AuthViewModel.swift in Sources */,
+				48755B8226205151005AE3B5 /* DownloadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +512,7 @@
 		};
 		48755AA8261DE82B005AE3B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0DC07E42BFC2B30CCE512B /* Pods-multiverse-leader-election-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -280,12 +529,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.a5.multiverse-leader-election-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		48755AA9261DE82B005AE3B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D103A00B8233175AE5553B27 /* Pods-multiverse-leader-election-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,7 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.a5.multiverse-leader-election-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +578,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48755B772620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48755B782620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodel */,
+			);
+			currentVersion = 48755B782620469A005AE3B5 /* multiverse-leader-election-challenge.xcdatamodel */;
+			path = "multiverse-leader-election-challenge.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 48755A90261DE82A005AE3B5 /* Project object */;
 }

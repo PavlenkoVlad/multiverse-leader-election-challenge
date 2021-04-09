@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct multiverse_leader_election_challengeApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
